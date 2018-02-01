@@ -12,15 +12,22 @@ package algus;
 public class Algus {
 
     /**
-     * Programmi algus
-     * @param args the command line arguments
+     * Alamprogramm toa soojuse hindamiseks vastavalt temperatuurile.
+     * Vähemasti kolm taset
+     */
+    
+    /**
+     * Arvamus ilma kohta
+     */
+    public static void ilmaKommentaar(int temperatuur){
+        if(temperatuur>0){System.out.println("sulab");}
+        else{System.out.println("Jäätab");}
+    }   
+    /**
+     * Programmi töö alguskoht. Siit alustatakse käivitamisel
+     * @param args the command line argumets
      */
     public static void main(String[] args) {
-        System.out.println("Hello, Web");
-        int temperatuur=-2;
-        if(temperatuur>0){System.out.println("sulab");}
-        else(System.out.println("Jäätab");}
-    }   
-    
-    
-}
+        System.out.println("Hello, Web!");
+        ilmaKommentaar(3);
+    }
